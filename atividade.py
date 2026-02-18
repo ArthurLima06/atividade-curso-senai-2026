@@ -9,8 +9,10 @@ def validar_credito():
         print ("MÉDIO RISCO")
     elif clientes[i,1] >= 20 and clientes [i,2] >= 3000 and clientes[i,3] == "bom":
         print ("BAICO RISCO")
+    elif clientes[i,3] == "ruim":
+        print ("ALTO RISCO")
     else:
         print ("SEM RESPOSTA")
 
 
-   print (validar_credito()) 
+   print (validar_credito())
